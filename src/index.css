@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: #EEEEEE;
+  font-family: 'Poppins', 'Assistant', sans-serif;
+  color:#292929;
+  scroll-snap-type: y mandatory;  /* Enable snap scrolling */
+  overflow-y: scroll;
+  scroll-behavior: smooth;  /* Smooth scrolling */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

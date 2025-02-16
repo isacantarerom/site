@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root {
+  --primary-color: #292929;
+  --bg-color: #EEEEEE;
+  --hover-color: #781727;
+  --active-color: #E2B3C2;
+  --header-font: coolvetica, sans-serif;
+  --body-font :'Poppins', 'Assistant', sans-serif;
+}
+
+
+/*--------------------- FIRST PAGE ---------------------*/
+
+.first-page {
+  height: 100vh;  /* Full viewport height */
+  scroll-snap-align: start;  /* Snap to the start of the section */
+  margin: clamp(20px, 2vw, 50px);
+}
+
+.titles-font {
+  font-family: coolvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.titles-font-text {
+  font-family: coolvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(8px, 2vw, 16px);
+}
+
+.titles-text {
+  font-size: clamp(16px, 3vw, 52px);
+  font-family: coolvetica, sans-serif;
+}
+
+.titles-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.round-btn-header-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: clamp(20px, 5vw, 82px);
+  margin-right: clamp(20px, 5vw, 82px);
+  font-size: clamp(6px, 1vw, 16px);
+}
+
+.round-btn-header-btn {
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.round-btn-header-img {
+  width: 3vw;
+  height: 5vh;
+  cursor: pointer;
+}
+
+.round-btn-header-txt {
+  margin-top: 0 auto;
+}
+
+.first-page-girl-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-page-girl-img {
+  width:12vw;
+  height: 22vh;
+}
+
+.first-page-content-div {
+  background-color: var(--primary-color);
+  color:var(--bg-color);
+  margin: clamp(20px, 5vh, 100px) clamp(20px, 5vw, 100px);
+  border-radius: clamp(2px, 0.2vw, 4px);
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.first-page-description {
+  margin-top: clamp(20px, 5vh, 24px);
+  font-size: clamp(6px, 1vw, 16px);
+}
+
+/* For the parent div */
+.overlap-container {
+  position: relative;  
+  display: inline-block;  
+}
+
+/* For the h2 */
+.overlap-title {
+  font-size: clamp(16px, 2vw, 32px);
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin: 0 auto;  
+}
+
+/* For the span */
+.overlap-span {
+  position: absolute;
+  bottom: 0%;
+  left: 6%;
+  color: #ADAEB3;
+  font-style: italic;
+  font-size: clamp(6px, 2vw, 16px);
+}
+
+.first-page-content-line-text {
+  color: #ADAEB3;
+  font-style: italic;
+  font-size: clamp(6px, 1vw, 16px);
+}
+
+
+.first-page-content-buttons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.first-page-content-text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: clamp(20px, 5vh, 56px);
+  max-width: 40vw;
+  cursor: default;
+}
+
+.first-page-content-btns {
+  color: var(--primary-color);
+  cursor: pointer;
+  border-radius: clamp(2px, 0.2vw, 4px);
+  font-family: coolvetica, sans-serif;
+  font-size: clamp(6px, 2vh, 16px);
+  background: var(--bg-color);
+  border: none;
+  font-weight: 600;
+  width: 12vw;
+  height: 6vh;
+}
+
+.first-page-content-btns:hover {
+  color: var(--bg-color);
+  cursor: pointer;
+  background: var(--hover-color);
+}
+
+.first-page-content-btns:active { /*TBD: CHANGE THIS TO A CORRECT COLOR */
+  color: var(--bg-color);
+  cursor: pointer;
+  background: var(--active-color);
+}
+
+/*----------------- SECOND PAGE  -------------------*/
+
+.second-page {
+  display: flex;
+  flex-direction: column;
+  margin: clamp(20px, 2vw, 50px);
+  height: 100vh;  /* Full viewport height */
+  scroll-snap-align: start;  /* Snap to the start of the section */
+}
+
+.second-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: clamp(20px, 2vw, 50px);
+  gap: 54vw;
+}
+
+.second-page-work-div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2vw;
+}
+
+.download-cv-btn-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: clamp(20px, 5vw, 82px);
+  margin-right: clamp(20px, 5vw, 82px);
+}
+
+.download-cv-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  font-size: clamp(6px, 1vw, 16px);
+}
+
+.download-cv-text {
+  white-space: nowrap;
+  margin-left: 1vw;
+}
+
+.second-page-girl-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.second-page-title-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: clamp(8px, 2vw, 24px);
+}
+
+.second-page-title {
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  font-weight: 600;
+}
+
+.company-card-titles-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: clamp(20px, 2vw, 50px);
+}
+
+.company-card-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-card-header-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--primary-color);
+  color: var(--bg-color);
+  width: 16vw;
+  height: 8vh;
+  padding: clamp(4px, 1vw, 12px);
+  border-radius: clamp(4px, 0.5vw, 10px);
+  gap: clamp(8px, 2vw, 20px);
+}
+
+.company-card-header-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.company-card-name {
+  margin-bottom: 0vh;
+  margin-top: 0vh;
+  font-family: coolvetica, sans-serif;
+  font-size: clamp(6px, 1vw, 18px);
+}
+
+.company-card-date {
+  font-size: clamp(6px, 1vw, 12px);
+}
+
+.company-card-info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: var(--primary-color);
+  margin: clamp(20px, 2vw, 50px);
+  padding: clamp(20px, 2vw, 50px);
+  border-radius: clamp(4px, 1vw, 12px);
+  width: 16vw;
+  height: 40vh;
+  color: var(--bg-color);
+  font-size: clamp(6px, 1vw, 14px);
+}
+
+.company-card-icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1vw;
+}
+
+.company-card-icon {
+  width: 2vw;
+  height: 4vh;
+}
+
+.company-card-icon-oracle {
+  width: 2vw;
+  height: 3vh;
+}
+
+.company-card-hyperlink {
+  text-decoration: none;
+  color: var(--active-color);
+}
+
+.company-card-hyperlink:hover {
+  text-decoration: none;
+  color: var(--bg-color);
+}
+
+.company-card-hyperlink:hover {
+  text-decoration: none;
+  color: var(--hover-color);
+}
+
+
+
+/*-------------------THIRD PAGE------------------------------*/
+
+
+.third-page {
+  display: flex;
+  flex-direction: column;
+  margin: clamp(20px, 2vw, 50px);
+  height: 100vh;  /* Full viewport height */
+  scroll-snap-align: start;  /* Snap to the start of the section */
+}
+
+.third-page-header {
+  display: flex;
+}
+
+.third-page-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: clamp(20px, 1vw, 25px);
+  margin-top: clamp(20px, 1vw, 25px);
+  font-size: clamp(8px, 2vw, 24px)
+}
+
+.flip-cards-section-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.third-page-title {
+  margin-left: clamp(20px, 1vw, 20px);
+}
+
+
+/* -------------------- FLIP CARD ----------------------*/
+
+.flip-card {
+  width: 12vw;
+  height: 30vh;
+  perspective: 100vw; /* Adds depth */
+  margin: clamp(20px, 2vw, 50px);
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  font-size: clamp(6px, 1vw, 14px);
+  display: flex;
+  flex-direction: column;
+  color: var(--bg-color);
+  justify-content: center;
+  align-items: center;
+  width: 12vw;
+  height: 30vh;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+.flip-card-front img {
+  width: 8vw;
+  height: 16vh;
+  margin-bottom: clamp(2px, 1vh, 14px);
+  object-fit: cover;
+}
+
+.flip-card-back {
+  background: var(--primary-color);
+  color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.flip-cards-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+/*----------FOURTH PAGEEEEE-----------------*/
+
+.message-me-page {
+  display: flex;
+  flex-direction: column;
+  margin: clamp(20px, 2vw, 50px);
+  height: 100vh;  /* Full viewport height */
+  scroll-snap-align: start;  /* Snap to the start of the section */
+}
+
+.message-me-page-header-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(6px, 1vw, 16px);
+  font-family: coolvetica, sans-serif;
+  margin: clamp(20px, 2vw, 50px);
+}
+
+.message-me-girl {
+  width:12vw;
+  height: 22vh;
+}
+
+.message-me-form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-me-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.message-me-label {
+  margin: clamp(5px, 0.5vw, 5px);
+  font-size: clamp(6px, 1vw, 16px);
+}
+
+.message-me-input {
+  margin: clamp(5px, 0.5vw, 5px);
+  font-size: clamp(6px, 1vw, 16px);
+  border: none;
+  background-color: #E2B3C2;
+  height: 3vh;
+  width: 16vw;
+  font-family: var(--body-font);
+  border-radius: clamp(2px, 1vw, 5px);
+}
+
+.message-me-text-area {
+  width: 40vw;
+  height: 30vh;
+  margin: clamp(20px, 1vw, 50px);
+  border: none;
+  font-family: var(--body-font);
+  font-size: clamp(6px, 1vw, 16px);
+  border-radius: clamp(2px, 1vw, 5px);
+}
+
+.message-me-send-button-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 41vw;
+}
+
+.message-me-button {
+  font-family: var(--body-font);
+  background: var(--primary-color);
+  border: none;
+  color: var(--bg-color);
+  height: 5vh;
+  width: 7vw;
+  font-size: clamp(6px, 1vw, 16px);
+  border-radius: clamp(2px, 1vw, 5px);
+  cursor: pointer;
+}
+
+.message-me-button:hover {
+  background: var(--hover-color);
+  color: var(--bg-color);
+}
