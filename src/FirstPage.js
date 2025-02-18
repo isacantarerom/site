@@ -50,7 +50,7 @@ const FirstPage = () => (
             <span className='first-page-content-line-text'>| COOKIE MONSTER  · DALMATIAN LOVER ·  COFFEE ADDICT |</span>
             <div className='first-page-description'>
             <p>
-                1. Lover of clean aesthetics, colorful outfits, her Dalmatian puppy, and a good laugh.
+                1. Lover of clean aesthetics, colorful things, her Dalmatian puppy, and a good laugh.
             </p> 
             <p>   
                 2. Firm believer in growth and never-ending evolution. Believes in willingness and showing up more than she believes in talent. Chooses humanity over perfection and—like Audrey Hepburn—believes in pink.
