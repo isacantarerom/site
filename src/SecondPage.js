@@ -66,7 +66,7 @@ const SecondPage = () => (
                 texts={[
                     <>
                       I worked on the development of Qualcomm's System Shell for 
-                      <a className='company-card-hyperlink' href="https://www.qualcomm.com/products/mobile/snapdragon/xr-vr-ar/snapdragon-xr2-gen-2-platform?&cmpid=pdsrc-JmW4rVRYGT&utm_medium=pdsrc&utm_source=AW&utm_campaign=FS-XR&_bt=689448412705&_bk=qualcomm%20xr&_bm=e&_bn=g&_bg=134018438337&gad_source=1&gclid=CjwKCAiAnpy9BhAkEiwA-P8N4tihOhUfccL4DO2LPb56Rqw2PcC6mjA_ryAXKKc3fHbjdtjUj0za9hoC4BoQAvD_BwE" target="_blank" rel="noopener noreferrer"> Snapdragons XR. </a> 
+                      <a className='company-card-hyperlink' href="https://www.qualcomm.com/products/mobile/snapdragon/xr-vr-ar" target="_blank" rel="noopener noreferrer"> Snapdragons XR. </a> 
                       <br />
                       So basically, if you use any XR headset that is powered by Snapdragons chipset and it works... I WORKED ON THAT! How lucky am I to be able to say that, right?
                     </>,
